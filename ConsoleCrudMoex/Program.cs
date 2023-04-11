@@ -3,7 +3,7 @@ using ConsoleCrudMoex;
 using Microsoft.Extensions.Configuration;
 using MoexEntity;
 
-// Настройка дат для entity postgresql
+// Custom for entity postgresql
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var builder = new ConfigurationBuilder()
@@ -27,7 +27,7 @@ var diroffers = config["moex:diroffers"];
 var dirsharedescription = config["moex:dirsharedescription"];
 var dirshares = config["moex:dirshares"];
 
-// Подключаем кодовые таблицы к проекту
+// Add Copages to project
 System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
 
 try
