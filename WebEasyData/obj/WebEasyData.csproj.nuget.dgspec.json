@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\arhive\\projects\\2023\\WebEasyDataGitVersion\\WebEasyData\\WebEasyData.csproj": {}
+  },
+  "projects": {
+    "D:\\arhive\\projects\\2023\\WebEasyDataGitVersion\\WebEasyData\\WebEasyData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\arhive\\projects\\2023\\WebEasyDataGitVersion\\WebEasyData\\WebEasyData.csproj",
+        "projectName": "WebEasyData",
+        "projectPath": "D:\\arhive\\projects\\2023\\WebEasyDataGitVersion\\WebEasyData\\WebEasyData.csproj",
+        "packagesPath": "C:\\Users\\--\\.nuget\\packages\\",
+        "outputPath": "D:\\arhive\\projects\\2023\\WebEasyDataGitVersion\\WebEasyData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\--\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "EasyData.AspNetCore": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "EasyData.Core": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "EasyData.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "EasyData.Exporters": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "EasyData.Exporters.ClosedXML": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "EasyData.Exporters.Default": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "EasyData.Exporters.PdfSharp": {
+              "target": "Package",
+              "version": "[1.4.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
