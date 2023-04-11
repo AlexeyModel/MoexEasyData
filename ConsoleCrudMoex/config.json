@@ -1,0 +1,15 @@
+{
+  "postgres": {
+    "connection": "Server=localhost;Port=5432;User Id=postgres;Password=GfhjkmPosgresql14;Database=moex;"
+  },
+  "moex": {
+    "dirbonds": "d:\\Downloads\\moex\\Bonds\\",
+    "dirbonddescription": "d:\\Downloads\\moex\\BondDescription\\",
+    "direurobonddescription": "d:\\Downloads\\moex\\EurobondDescription\\",
+    "dircoupons": "d:\\Downloads\\moex\\Coupons\\",
+    "diramortization": "d:\\Downloads\\moex\\Amortization\\",
+    "diroffers": "d:\\Downloads\\moex\\Offers\\",
+    "dirsharedescription": "d:\\Downloads\\moex\\ShareDescription\\",
+    "dirshares": "d:\\Downloads\\moex\\Shares\\"
+  }
+}
