@@ -1,10 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using CsvHelper.Configuration.Attributes;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MoexEntity
 {
     [Table("eurobonddescription", Schema = "importfiles")]
     public class EurobondDescriptionEntity : CommonEntity
     {
+        [Key]
+        [Ignore]
+        public int Id { get; set; }
         public string? Secid { get; set; }
         public string? Issuename { get; set; }
         public string? Name { get; set; }

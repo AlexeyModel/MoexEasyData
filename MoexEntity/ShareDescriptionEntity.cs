@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CsvHelper.Configuration.Attributes;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MoexEntity
 {
     [Table("sharedescription", Schema = "importfiles")]
     public class ShareDescriptionEntity : CommonEntity
     {
+        [Key]
+        [Ignore]
+        public int Id { get; set; }
         public string? Boardid { get; set; }
         public string? Tradedate { get; set; }
         public string? Shortname { get; set; }

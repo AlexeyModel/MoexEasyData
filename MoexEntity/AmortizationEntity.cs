@@ -1,10 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using CsvHelper.Configuration.Attributes;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MoexEntity
 {
     [Table("amortization", Schema = "importfiles")]
     public class AmortizationEntity : CommonEntity
     {
+        [Key]
+        [Ignore]
+        public int Id { get; set; }
         public string? Isin { get; set; }
         public string? Name { get; set; }
         public string? AmortizationDate { get; set; }
