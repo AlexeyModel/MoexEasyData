@@ -10,26 +10,32 @@ namespace MoexEntity
         [Key]
         [Ignore]
         public int Id { get; set; }
-        public string? Boardid { get; set; }
-        public string? Tradedate { get; set; }
-        public string? Shortname { get; set; }
         public string? Secid { get; set; }
-        public string? Numtrades { get; set; }
-        public string? Value { get; set; }
-        public string? Open { get; set; }
-        public string? Low { get; set; }
-        public string? High { get; set; }
-        public string? Legalcloseprice { get; set; }
-        public string? Waprice { get; set; }
-        public string? Close { get; set; }
-        public string? Volume { get; set; }
-        public string? Marketprice2 { get; set; }
-        public string? Marketprice3 { get; set; }
-        public string? AdmittedQuote { get; set; }
-        public string? MP2ValTrd { get; set; }
-        public string? Marketprice3TradesValue { get; set; }
-        public string? AdmittedValue { get; set; }
-        public string? Waval { get; set; }
-        public string? TradingSession { get; set; }
+        public string? Issuename { get; set; }
+        public string? Name { get; set; }
+        public string? Shortname { get; set; }
+        public string? Isin { get; set; }
+        public string? Regnumber { get; set; }
+        public string? Issuesize { get; set; }
+        public string? Facevalue { get; set; }
+        public string? Faceunit { get; set; }
+        public string? Issuedate { get; set; }
+        public string? Latname { get; set; }
+        public string? Depositarynotetype { get; set; }
+        public string? Hasprospectus { get; set; }
+        public string? Decisiondate { get; set; }
+        public string? Hasdefault { get; set; }
+        public string? Hastechnicaldefault { get; set; }
+        public string? Emitentmismatchfirst { get; set; }
+        public string? Emitentmismatchcur { get; set; }
+        public string? Listlevel { get; set; }
+        public string? Isqualifiedinvestors { get; set; }
+        public string? Qualinvestorgroup { get; set; }
+        public string? Sharesperreceipt { get; set; }
+        public string? Morningsession { get; set; }
+        public string? Eveningsession { get; set; }
+        public string? Highrisk { get; set; }
+        public string? Type { get; set; }
+        public string? Typename { get; set; }
     }
 }

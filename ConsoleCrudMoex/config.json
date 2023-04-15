@@ -3,13 +3,13 @@
     "connection": "Server=localhost;Port=5432;User Id=postgres;Password=GfhjkmPosgresql14;Database=moex;"
   },
   "moex": {
-    "dirbonds": "d:\\arhive\\projects\\2023\\MoexData\\\\Bonds\\",
-    "dirbonddescription": "d:\\arhive\\projects\\2023\\MoexData\\\\BondDescription\\",
-    "direurobonddescription": "d:\\arhive\\projects\\2023\\MoexData\\\\EurobondDescription\\",
-    "dircoupons": "d:\\arhive\\projects\\2023\\MoexData\\\\Coupons\\",
-    "diramortization": "d:\\arhive\\projects\\2023\\MoexData\\\\Amortization\\",
-    "diroffers": "d:\\arhive\\projects\\2023\\MoexData\\\\Offers\\",
-    "dirsharedescription": "d:\\arhive\\projects\\2023\\MoexData\\\\ShareDescription\\",
-    "dirshares": "d:\\arhive\\projects\\2023\\MoexData\\\\Shares\\"
+    "dirbonds": "d:\\arhive\\projects\\2023\\MoexData\\Bonds\\",
+    "dirbonddescription": "d:\\arhive\\projects\\2023\\MoexData\\BondDescription\\",
+    "direurobonddescription": "d:\\arhive\\projects\\2023\\MoexData\\EurobondDescription\\",
+    "dircoupons": "d:\\arhive\\projects\\2023\\MoexData\\Coupons\\",
+    "diramortization": "d:\\arhive\\projects\\2023\\MoexData\\Amortization\\",
+    "diroffers": "d:\\arhive\\projects\\2023\\MoexData\\Offers\\",
+    "dirsharedescription": "d:\\arhive\\projects\\2023\\MoexData\\ShareDescription\\",
+    "dirshares": "d:\\arhive\\projects\\2023\\MoexData\\Shares\\"
   }
 }
