@@ -128,3 +128,6 @@ D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\obj\Debug\net7.0\r
 D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\obj\Debug\net7.0\ConsoleCrudMoex.pdb
 D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\obj\Debug\net7.0\ConsoleCrudMoex.genruntimeconfig.cache
 D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\obj\Debug\net7.0\ref\ConsoleCrudMoex.dll
+D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\bin\Debug\net7.0\Serilog.dll
+D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+D:\arhive\projects\2023\WebEasyDataGitVersion\ConsoleCrudMoex\bin\Debug\net7.0\Serilog.Sinks.File.dll

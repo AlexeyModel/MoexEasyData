@@ -1,4 +1,5 @@
 ﻿using MoexEntity;
+using Serilog;
 
 namespace ConsoleCrudMoex
 {
@@ -10,6 +11,8 @@ namespace ConsoleCrudMoex
         {
             await Task.Run(() =>
             {
+                Log.Information($"TEntity = {typeof(TEntity).Name}");
+
                 if (!string.IsNullOrEmpty(dir) && !string.IsNullOrEmpty(connectionString))
                 {
                     CsvOperations<TEntity>.EncodingPageNumber = Tools<TEntity>.EncodingPageNumber;
@@ -21,14 +24,21 @@ namespace ConsoleCrudMoex
                     {
                         var tick = DateTime.Now.Ticks;
 
+                        Log.Information($"Читаем файл '{path}'");
                         var records = csv.ReadCsv($"{path}");
 
-                        records.ForEach(i => i.Pid = tick);
+                        records?.ForEach(i => i.Pid = tick);
+                        Log.Information($"Файл прочитан '{path}' строк значимых {records?.Count}");
 
                         if (records != null)
                         {
                             crud.AddRange(records);
                         }
+                    }
+
+                    if (!Directory.GetFiles(dir).Any(x => x.Contains("csv")))
+                    {
+                        Log.Information($"Папка '{dir}' пуста");
                     }
                 }
             });

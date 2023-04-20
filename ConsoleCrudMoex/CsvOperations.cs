@@ -1,5 +1,6 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
+using Serilog;
 using System.Globalization;
 using System.Text;
 
@@ -20,7 +21,11 @@ namespace ConsoleCrudMoex
             
             using var csv = new CsvReader(reader, config);
 
-            var records = csv.GetRecords<TEntity>();
+            var records = csv?.GetRecords<TEntity>();
+
+            if (records == null) return new List<TEntity>();
+
+            Log.Information($"Строки прочитаны. Количество {records.Count()}");
 
             return records.ToList();
         }

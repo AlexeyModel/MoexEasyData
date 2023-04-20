@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace ConsoleCrudMoex
 {
@@ -29,6 +30,8 @@ namespace ConsoleCrudMoex
                 context.EnsureCreatingMissingTablesPosgtres();
                 context.Items.AddRange(items);
                 context.SaveChanges();
+
+                Log.Information($"Записи {items.Count()} добавлены");
             }
         }
 
