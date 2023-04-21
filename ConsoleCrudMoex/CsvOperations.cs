@@ -17,8 +17,8 @@ namespace ConsoleCrudMoex
             var config = new CsvConfiguration(CultureInfo.CurrentCulture) {
                 DetectDelimiter = true,
                 BadDataFound = null,
-                //HeaderValidated = null,
-                //MissingFieldFound = null,
+                HeaderValidated = default,
+                MissingFieldFound = null,
             };
             
             using var csv = new CsvReader(reader, config);
